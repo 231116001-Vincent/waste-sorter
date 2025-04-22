@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WasteSorter</string>
+    
+    <string name="header_category">Kategori Sampah</string>
+    <string name="header_list">Daftar Sampah</string>
+    <string name="header_characteristic">Ciri-ciri</string>
+    <string name="header_benefit">Manfaat</string>
+    <string name="header_example">Contoh Sampah</string>
+
+    <string name="search">Pencarian</string>
+
+    <string name="organik">Organik</string>
+    <string name="anorganik">Anorganik</string>
+    <string name="b3">Berbahaya &amp; Beracun</string>
+
+    <string name="placeholder_category_name">Nama Kategori</string>
+    <string name="placeholder_search">Pencarian</string>
+
+    <string name="image_description_category">Ikon Kategori</string>
+    <string name="image_description_button">Ikon Tombol</string>
+</resources>

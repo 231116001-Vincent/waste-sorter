@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="charcoal">#202020</color>
+    <color name="grey">#EAEAEA</color>
+    <color name="red">#FF0000</color>
+
+    <color name="organik_background">#C8FFC8</color>
+    <color name="organik_chip">#80EEA0</color>
+    <color name="anorganik_background">#C4DFFB</color>
+    <color name="anorganik_chip">#8FC6FF</color>
+    <color name="b3_background">#FED0D0</color>
+    <color name="b3_chip">#FE8080</color>
+</resources>
