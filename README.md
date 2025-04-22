@@ -1,2 +1,2 @@
-# waste-sorter
-Aplikasi panduan pemilahan sampah - Tugas Akhir PPB 1
+# WasteSorter
+Aplikasi panduan pemilahan sampah untuk Tugas Akhir PPB 1
