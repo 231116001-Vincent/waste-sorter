@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">WasteSorter</string>
-    
+
     <string name="header_category">Kategori Sampah</string>
     <string name="header_list">Daftar Sampah</string>
     <string name="header_characteristic">Ciri-ciri</string>
     <string name="header_benefit">Manfaat</string>
     <string name="header_example">Contoh Sampah</string>
+    <string name="header_about">Tentang Aplikasi</string>
 
     <string name="search">Pencarian</string>
 
@@ -18,4 +19,8 @@
 
     <string name="image_description_category">Ikon Kategori</string>
     <string name="image_description_button">Ikon Tombol</string>
+
+    <string name="about_app">
+        WasteSorter hadir sebagai panduan sederhana untuk membantu Anda mengenali berbagai jenis sampah.\n\nAplikasi ini menyajikan informasi dalam kategori yang jelas, memungkinkan Anda untuk dengan mudah melihat daftar sampah dan detail informasinya.\n\nTujuan utama WasteSorter adalah memberikan pemahaman dasar tentang pengelompokan sampah, sehingga Anda dapat lebih terinformasi mengenai potensi daur ulangnya. Aplikasi ini merupakan langkah awal dalam upaya kita bersama untuk pengelolaan sampah yang lebih baik.\n\nTerima kasih telah menggunakan WasteSorter sebagai sumber informasi Anda.\n\nMari bersama meningkatkan kesadaran akan pentingnya pemilahan sampah.\n\n© 2025 Vincentius Harya - 231116001
+    </string>
 </resources>

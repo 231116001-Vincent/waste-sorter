@@ -3,69 +3,68 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
-    android:orientation="vertical"
     tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_name"
-        android:textSize="32sp"
-        android:fontFamily="@font/poppins_semibold"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/header_category"
-        android:textSize="24sp"
-        android:fontFamily="@font/poppins_medium"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:baselineAligned="false"
-        android:orientation="horizontal">
+        android:layout_marginTop="16dp"
+        android:paddingHorizontal="16dp">
 
-        <include
-            layout="@layout/card_category"
-            android:id="@+id/card_organik"
+        <TextView
+            android:layout_gravity="center_vertical"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textSize="32sp"
+            android:fontFamily="@font/poppins_semibold"/>
 
-        <include
-            layout="@layout/card_category"
-            android:id="@+id/card_anorganik"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="16dp"
-            android:layout_weight="1"/>
-
-        <include
-            layout="@layout/card_category"
-            android:id="@+id/card_b3"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/button_info"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:padding="6dp"
+            android:src="@drawable/ic_info"
+            android:background="@android:color/transparent"/>
 
     </LinearLayout>
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:text="@string/header_category"
+        android:textSize="24sp"
+        android:fontFamily="@font/poppins_medium"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="16dp"
+        android:clipToPadding="false"/>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginBottom="6dp"
+        android:paddingHorizontal="16dp"
         android:text="@string/header_list"
         android:textSize="24sp"
         android:fontFamily="@font/poppins_medium"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_marginBottom="16dp"
+        android:paddingHorizontal="16dp">
 
         <EditText
             android:id="@+id/input_search"
@@ -105,6 +104,11 @@
         android:id="@+id/gridview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numColumns="2"/>
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="16dp"
+        android:numColumns="2"
+        android:verticalSpacing="16dp"
+        android:horizontalSpacing="16dp"
+        android:clipToPadding="false"/>
 
 </LinearLayout>

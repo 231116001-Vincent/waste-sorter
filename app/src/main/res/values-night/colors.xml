@@ -2,9 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="charcoal">#202020</color>
-    <color name="grey">#EAEAEA</color>
     <color name="red">#FF0000</color>
+
+    <color name="input_color">#202020</color>
 
     <color name="organik_background">#2E5339</color>
     <color name="organik_chip">#3C6F4D</color>

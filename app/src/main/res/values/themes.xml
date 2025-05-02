@@ -3,7 +3,11 @@
     <style name="Base.Theme.WasteSorter" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:textColor">@color/black</item>
     </style>
 
-    <style name="Theme.WasteSorter" parent="Base.Theme.WasteSorter" />
+    <style name="Theme.WasteSorter" parent="Base.Theme.WasteSorter">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
 </resources>
