@@ -3,6 +3,7 @@ package com.vharya.wastesorter
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.widget.EditText
 import android.widget.GridView
 import android.widget.ImageButton
 import android.widget.LinearLayout
@@ -20,6 +21,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.vharya.wastesorter.adapters.CategoryListAdapter
 import com.vharya.wastesorter.adapters.WasteGridAdapter
 import com.vharya.wastesorter.models.WasteModel
+import kotlinx.coroutines.delay
 
 class MainActivity : AppCompatActivity() {
     private val placeholderCategoryImages = arrayListOf(
@@ -57,6 +59,7 @@ class MainActivity : AppCompatActivity() {
 
         val infoButton: ImageButton = findViewById(R.id.button_info)
         val categoryRecycler: RecyclerView = findViewById(R.id.categories)
+        val inputSearch: EditText = findViewById(R.id.input_search)
         val wasteGrid: GridView = findViewById(R.id.gridview)
 
         infoButton.setOnClickListener {
@@ -91,14 +94,4 @@ class MainActivity : AppCompatActivity() {
             placeholderWasteCategories
         )
     }
-
-//    Light & Dark mode color solution example
-//    fun getCategoryColor(category: String, context: Context): Int {
-//        return when (category) {
-//            "Recyclable" -> ContextCompat.getColor(context, R.color.recyclable_light)
-//            "Organic" -> ContextCompat.getColor(context, R.color.organic_light)
-//            "Hazardous" -> ContextCompat.getColor(context, R.color.hazardous_light)
-//            else -> ContextCompat.getColor(context, android.R.color.darker_gray)
-//        }
-//    }
 }
